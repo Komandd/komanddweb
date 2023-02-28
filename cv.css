@@ -1,0 +1,156 @@
+.btn {   
+        background-color: #3c3484;
+        color: #aca4fc;
+        font-size: 150px;
+        padding: 20vh;    
+        display: flex;
+        justify-content: center; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.derecha {
+    background-image: url(cvback.png);
+    height: 130vh /**viewport height (altura del dispositivo)*/;
+    /*poner width hace q los porcentajes de uso de pantalla sean iguales o como nosotros queramos */
+    width: 100%;
+    
+    
+}
+
+.izquierda {
+    background-color: #aca4fc;
+    /*el width y height son necesarios para que se muestre la imagen*/
+    width: 25%;
+    height: 130vh;
+   
+    
+}
+
+#pantalladiv {
+    /*flex permite que los elementos esten lado a lado*/
+    display: flex;
+}
+
+.name {
+    color:  #aca4fc;
+}
+
+.namecortado {
+    color: #3c3484;
+}
+
+.apellido {
+    color:  #aca4fc;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+     font-size: 90px;
+     width: 30%;
+     margin: auto;
+}
+
+h2{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+.email {
+    margin-bottom:40px ;
+}
+
+.nmr {
+    margin-bottom:40px ;
+}
+
+.ubi {
+    margin-bottom:40px ;
+}
+
+.mi {
+    border:#3c3484 5px solid ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color:  #3c3484;
+}
+
+.exp {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #aca4fc ;
+}
+
+.hab {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #aca4fc ;
+}
+
+.form {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #aca4fc ;
+}
+
+.ehf {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.avatar {
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 8px solid #3c3484;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px
+}
+
+#cont {
+    border:#3c3484 5px solid ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:  #3c3484;
+}
+
+#abog {
+    width: 19%;     
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#pantallaprincipal {
+    background-color: #aca4fc;
+    height: 100vh;
+}
+
+
+*{font-family: 'Archivo Narrow', sans-serif;}
+
+*{color: aliceblue;}
+
